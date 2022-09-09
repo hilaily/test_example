@@ -120,7 +120,7 @@ func (a *AStruct) echo(name string, age int) (string, int) {
 	return name, age
 }
 
-// 模拟一个结构体的方法
+// 模拟一个结构体的导出方法
 func TestApplyMethodFunc(t *testing.T) {
 	myStruct := &AStruct{}
 
