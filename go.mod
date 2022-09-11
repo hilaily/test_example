@@ -4,6 +4,7 @@ go 1.19
 
 require (
 	github.com/agiledragon/gomonkey/v2 v2.8.0
+	github.com/golang/mock v1.6.0
 	github.com/stretchr/testify v1.8.0
 )
 
