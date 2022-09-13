@@ -11,6 +11,10 @@ import (
 
 	介绍 gomonkey 包的使用方法
 
+	注意：使用 gomoneky 后，执行 go test 需要禁止内联: i
+	go test -gcflags=-l (go1.10 以下版本)
+	go test -gcflags=all=-l (go1.10 及以上版本).
+
 ********************************************/
 
 /*
